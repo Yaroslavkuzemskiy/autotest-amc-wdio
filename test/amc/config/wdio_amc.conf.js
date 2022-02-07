@@ -23,6 +23,7 @@ exports.config = {
     specs: [
         //'./test/amc/**/*.js'
         './test/amc/*.js'
+        
     ],
     // Patterns to exclude.
     exclude: [

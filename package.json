@@ -10,7 +10,10 @@
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "amc": "./node_modules/.bin/wdio ./test/amc/config/wdio_amc.conf.js",
     "amc-prod": "./node_modules/.bin/wdio ./test/amc-prod/config/wdio_amc.conf.js",
-    "dev": "./node_modules/.bin/wdio ./test/drew-dev/config/wdio_drew-dew.conf.js"
+    "dev": "./node_modules/.bin/wdio ./test/drew-dev/config/wdio_drew-dew.conf.js",
+    "amc-phone": "./node_modules/.bin/wdio ./test/amc-phone/config/wdio_amc.conf.js",
+    "optimum-dev": "./node_modules/.bin/wdio ./test/optimum-dev/config/wdio_optimum.conf.js",
+    "axios": "./node_modules/.bin/wdio ./test/axios/config/wdio_axios.conf.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,5 +26,10 @@
     "@wdio/sync": "^7.0.9",
     "reg-cli": "^0.17.0",
     "wdio-image-comparison-service": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "base-64": "^1.0.0",
+    "webdriver-manager": "^12.1.8"
   }
 }
